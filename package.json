@@ -1,16 +1,27 @@
 {
   "name": "reload-node-cache",
   "version": "1.0.0",
-  "description": "auto reload cache",
+  "description": "reload node cache",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anmolagar/reload-node-cache.git"
+  },
+  "keywords": [
+    "reload",
+    "node",
+    "cache"
+  ],
   "author": "anmol@codemaya.com",
   "license": "ISC",
   "dependencies": {
     "node-cache": "^5.1.2"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
-  "repository": "https://github.com/anmolagar/reload-node-cache.git"
+  "bugs": {
+    "url": "https://github.com/anmolagar/reload-node-cache/issues"
+  },
+  "homepage": "https://github.com/anmolagar/reload-node-cache#readme"
 }
